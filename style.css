@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: Orange;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+
+
+nav {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 4rem;
+    height: 12rem;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    font-weight: 500;
+}
+
+.menus {
+    display: flex;
+    margin: 1rem;
+}
+
+.logo {
+    margin: 2rem;
+}
+
+.logo img {
+    width: 38%;
+}
+
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conoce {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    align-items: center;
+    width: 70%;
+}
+
+.conoce h1 {
+    font-size: 5rem;
+}
+
+.conoce p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.conoce button {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.hamburguesa1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.hamburguesa1 img {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.hamburguesa2 img {
+    width: 100%;
+}
+
+
+
+main {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.producto {
+    background-color: white;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    height: auto;
+    padding: 1rem;
+    font-size: 4rem;
+
+}
+
+.producto p:first-child {
+    font-size: 4rem;
+}
+
+
+.productos img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.precio h2{
+    font-size: 8rem;
+    margin: 4rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    color: green;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+.producto p {
+    font-size: 2rem;
+}
+
+main h1 {
+    font-size: 7rem;
+    margin: 3rem;
+    font-family: 'Roboto Black 900 Italic', sans-serif;
+}
+
+
+.add {
+
+    border-style: none;
+    width: 12rem;
+    height: 12rem;
+    margin-right: 3rem;
+}
+
+.add img {
+    background-color: white;
+    width: 100%;
+}
+
+footer {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media (max-width:600px)
+{
+   nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    font-size: 2rem;
+    min-width: 3rem;
+   }
+
+   .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+   }
+
+   header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .conoce {
+    margin: 4rem;
+   }
+
+   a {
+    margin: 0rem;
+    margin-left: 1.5rem;
+   }
+
+   .main {
+    max-width: 30rem;
+   }
+
+   .producto {
+    width: 30rem;
+   }
+   
+   .add img {
+    background-color: white;
+    width: 100%;
+    ;
+}
+
+.precio h2{
+    font-size: 6rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: green;
+}
+
+}
